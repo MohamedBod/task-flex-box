@@ -1,0 +1,78 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body,html {
+     width: 100vw;
+     height: 100vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     font-size: 2vw;
+     text-transform: capitalize;
+ }
+/* ================================================ */
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5vw
+}
+.center
+.center_right{
+    margin-left: 30vw;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;   
+}
+.days_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.dgree_right{
+    color: black;
+    opacity: 1;
+}
+.dgree_opicity_text{
+    color: black;
+    opacity: 0.5;    
+}
+.days_photo{
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    padding: 0;
+}
+/* ===============================resposive========================== */
+@media only screen and (max-width:768px ) {
+    .down{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .days_style{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 2px solid black ;
+        margin: 5px 5px 5px 5px
+    }
+    
+}
+
